@@ -1,16 +1,35 @@
 /* index.css */
-
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
 body {
     background:	#000000;
 }
 
-nav {
-    text-align: center;
+nav ul li{
+    
+	list-style-type: none;
+    display:inline;
+    
+}
+nav a{
+    color: white;
+    font-size: 6vh;
+    text-decoration: none;
+    margin: 0 2% 0 2%;
 
 }
 
+nav{
+	width:90%;
+	height:80px;
+    margin-left: 35vw;
+    
+}
 h1 {
-    font-size: 4em;
+    font-size: 8vh;
     text-transform: uppercase;
     color: white;
 }
@@ -19,5 +38,34 @@ header {
     background: url(../imagenes/fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+footer{
+    font-size: 2vh;
+    color: white;
+    text-align: center;
+}
+
+.main{
+    background-color: springgreen;
+	position: relative;
+    width: 120vh;
+    height: 90vh;
+    margin: 10px auto; 
+}
+
+.dibujo{    
+    background-color: sienna;
+    width: 40vh;
+
+}
+
+.fx{
+background-color: rebeccapurple;
+    width: 40vh;
+}
+
+.proceso{
+    background-color: peru;
+    width: 40vh;
 }
 

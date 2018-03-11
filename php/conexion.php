@@ -10,8 +10,8 @@
 	
 	$conexion = mysqli_connect(
 				"mysql.hostinger.com.ar",
-				"u637171583_beto",
-				"Nlf10@FoD",
-				"u637171583_vayne"
+				"u627466462_maram",
+				"Abuelalala25@",
+				"u627466462_maram"
 				);
 ?>
