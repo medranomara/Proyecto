@@ -1,0 +1,23 @@
+/* index.css */
+
+body {
+    background:	#000000;
+}
+
+nav {
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    color: white;
+}
+
+header {
+    background: url(../imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
