@@ -32,6 +32,7 @@ nav{
 h1 {
     font-size: 8vh;
     text-transform: uppercase;
+    font-family: Helvetica;
     color: white;
 }
 

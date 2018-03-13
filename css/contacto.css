@@ -6,6 +6,7 @@
 }
 body {
     background:	#000000;
+    color: aliceblue;
 }
 
 nav ul li{
@@ -31,6 +32,8 @@ nav{
 h1 {
     font-size: 8vh;
     text-transform: uppercase;
+    font-family: Helvetica;
+
     color: white;
 }
 
@@ -43,4 +46,11 @@ footer{
     font-size: 2vh;
     color: white;
     text-align: center;
+}
+
+footer a{
+    font-size: 4vh;
+    margin: 0 2% 0 2%;
+    text-decoration: none;
+    color: blueviolet;
 }
